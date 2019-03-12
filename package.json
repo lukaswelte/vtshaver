@@ -1,11 +1,11 @@
 {
-  "name": "@mapbox/vtshaver",
+  "name": "@lukaswelte/vtshaver",
   "version": "0.2.0",
   "description": "Creates style-optimized vector tiles",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:mapbox/vtshaver.git"
+    "url": "git@github.com:lukaswelte/vtshaver.git"
   },
   "scripts": {
     "test": "tape test/*.test.js",
@@ -36,8 +36,8 @@
   "binary": {
     "module_name": "vtshaver",
     "module_path": "./lib/binding/",
-    "host": "https://mapbox-node-binary.s3.amazonaws.com",
-    "remote_path": "./{name}/v{version}/{configuration}/{toolset}/",
+    "host": "https://map-tiles-environment.s3.amazonaws.com",
+    "remote_path": "./shaver/{name}/v{version}/{configuration}/{toolset}/",
     "package_name": "{node_abi}-{platform}-{arch}.tar.gz"
   }
 }
