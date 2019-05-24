@@ -36,7 +36,7 @@
   "binary": {
     "module_name": "vtshaver",
     "module_path": "./lib/binding/",
-    "host": "https://map-tiles-environment-eu-west-1-komoot.s3.amazonaws.com",
+    "host": "https://map-tiles-environment-eu-west-1-184329855914.s3.amazonaws.com",
     "remote_path": "./shaver/{name}/v{version}/{configuration}/{toolset}/",
     "package_name": "{node_abi}-{platform}-{arch}.tar.gz"
   }
